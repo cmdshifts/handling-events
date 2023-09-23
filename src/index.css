@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  * {
+    @apply m-0
+    p-0
+    box-border;
+  }
+
+  main {
+    @apply flex
+    flex-col
+    justify-center
+    items-center
+    h-full
+    gap-6;
+  }
+
+  #root {
+    @apply flex
+    justify-center
+    h-screen;
+  }
+}
